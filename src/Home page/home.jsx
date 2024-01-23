@@ -161,7 +161,7 @@ const HomePage = () => {
           <HomeSlide topic={"Heavily audited"} link={"/Docs/#Audits"} title={"See how Ethos Reserve puts Security First"} text2={"More than 150 blockchain security specialists"} text3={" have audited our code, helping us ensure user safety."} buttonText={"Ethos security audits"} src={"./Img/Landing-slide-3.webp"}/>
         </div>
       </div>
-      {showDiscordTab && <div className={` ${Darkmode?" bg-black ":" bg-white"} fixed z-[5] bottom-4 left-1/2 -translate-x-1/2 rounded-md p-2 flex justify-between items-center gap-2`}> Stay updated and join our growing community. <a className=" text-purple-600" href="https://discord.com/invite/oathdefi">Join Discord </a> <i onClick={()=> {setshowDiscordTab(false)}} className=" cursor-pointer fa-solid fa-xmark"></i> </div>}
+      {showDiscordTab && <div className={` ${Darkmode?" bg-black ":" bg-white"} fixed z-[5] bottom-4 left-1/2 -translate-x-1/2 w-[90vw] shadow-lg sm:w-auto rounded-md p-2 flex justify-between items-center gap-2`}> Stay updated and join our growing community. <a className=" text-purple-600" href="https://discord.com/invite/oathdefi">Join Discord </a> <i onClick={()=> {setshowDiscordTab(false)}} className=" cursor-pointer fa-solid fa-xmark"></i> </div>}
       {showVid && (
         <div className=" bg-dark_gray-900 h-screen w-screen z-50 fixed top-0 left-0 flex justify-center items-center">
         <button

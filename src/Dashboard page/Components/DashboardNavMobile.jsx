@@ -53,7 +53,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-chart-line p-3 rounded-md ${
+              className={`fa-solid fa-chart-line p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>
@@ -84,7 +84,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-arrow-up p-3 rounded-md ${
+              className={`fa-solid fa-arrow-up p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>
@@ -115,7 +115,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-right-left rotate-90 p-3 rounded-md ${
+              className={`fa-solid fa-right-left rotate-90 p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>
@@ -146,7 +146,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-layer-group p-3 rounded-md ${
+              className={`fa-solid fa-layer-group p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>
@@ -177,7 +177,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-chart-column p-3 rounded-md ${
+              className={`fa-solid fa-chart-column p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>
@@ -211,7 +211,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-vault p-3 rounded-md ${
+              className={`fa-solid fa-vault p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>
@@ -242,7 +242,7 @@ const DashboardNavMobile = ({
             } `}
           >
             <i
-              class={`fa-solid fa-right-left p-3 rounded-md ${
+              className={`fa-solid fa-right-left p-3 rounded-md ${
                 Darkmode ? " bg-dark_gray-900" : " bg-white"
               } `}
             ></i>

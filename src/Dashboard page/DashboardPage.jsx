@@ -20,7 +20,7 @@ const DashboardPage = () => {
 
   return (
     <div
-      className={` ${Darkmode ? " bg-black text-white" : "bg-gray-100"} p-5`}
+      className={` ${Darkmode ? " bg-black text-white" : "bg-gray-100"} p-5 min-h-screen`}
     >
       <div
         className={` md:flex hidden justify-between items-center fixed top-0 w-full left-0 p-5 z-10 ${
@@ -98,7 +98,7 @@ const DashboardPage = () => {
       <div className=" md:hidden flex  justify-between items-center py-7 px-4">
 
             <Link to={"/"} onClick={()=> {toggleactiveNav(1)}}><button className={` p-3 rounded-md ${Darkmode?" bg-dark_gray-900 text-white":" bg-white text-black"} `}>Home</button></Link>
-          <button onClick={()=> {setshowNavMobile(true)}} className={` p-3 rounded-md ${Darkmode?" bg-dark_gray-900 text-white":" bg-white text-black"} `}><i class="fa-solid fa-bars"></i></button>
+          <button onClick={()=> {setshowNavMobile(true)}} className={` p-3 rounded-md ${Darkmode?" bg-dark_gray-900 text-white":" bg-white text-black"} `}><i className="fa-solid fa-bars"></i></button>
       </div>
       <div className=" flex mt-14">
         <div className=" w-1/4 pt-10 md:block hidden">
@@ -117,7 +117,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-chart-line p-3 rounded-md ${
+                  className={`fa-solid fa-chart-line p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
@@ -148,7 +148,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-arrow-up p-3 rounded-md ${
+                  className={`fa-solid fa-arrow-up p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
@@ -179,7 +179,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-right-left rotate-90 p-3 rounded-md ${
+                  className={`fa-solid fa-right-left rotate-90 p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
@@ -210,7 +210,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-layer-group p-3 rounded-md ${
+                  className={`fa-solid fa-layer-group p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
@@ -241,7 +241,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-chart-column p-3 rounded-md ${
+                  className={`fa-solid fa-chart-column p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
@@ -276,7 +276,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-vault p-3 rounded-md ${
+                  className={`fa-solid fa-vault p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
@@ -307,7 +307,7 @@ const DashboardPage = () => {
                 } `}
               >
                 <i
-                  class={`fa-solid fa-right-left p-3 rounded-md ${
+                  className={`fa-solid fa-right-left p-3 rounded-md ${
                     Darkmode ? " bg-dark_gray-900" : " bg-white"
                   } `}
                 ></i>
