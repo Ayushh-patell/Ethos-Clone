@@ -1,0 +1,36 @@
+import React, { useContext } from "react";
+import { DarkModeContext } from "../../Contexts/DarkModeContext";
+
+const DashboardPosition = () => {
+  const { Darkmode } = useContext(DarkModeContext);
+
+  return (
+    <div className="">
+      <div
+        className={` rounded-2xl p-6 gap-5 shadow-lg ${
+          Darkmode ? " bg-dark_gray-900" : " bg-white"
+        } flex flex-col justify-center items-center`}
+      >
+        <i
+          className="fa-solid fa-arrow-up p-5 rounded"
+          style={{ backgroundColor: "#80008049", color: "#80008085" }}
+        ></i>
+        <h4 className=" title text-xl font-semibold">Open a Position</h4>
+        <p className=" text-gray-800 opacity-60 font-semibold text-center">
+          Deposit your collateral to borrow Ethos Reserve Notes, or ERN. ERN
+          loans are interest free, and cost only a small fee on issuance. You
+          can use your ERN to earn passive income or trade on most popular
+          decentralized exchanges.{" "}
+        </p>
+        <div
+          style={{ background: "linear-gradient(90deg,#cfb4f9, #c8f8f8)" }}
+          className=" p-5 rounded-md"
+        >
+          Connect Wallet
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default DashboardPosition;
