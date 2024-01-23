@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
 
       <div
-        className={` flex justify-between border-y w-full py-4 my-3 ${
+        className={` flex justify-between md:flex-row flex-col items-center border-y w-full py-4 my-3 ${
           Darkmode ? " border-gray-600" : " "
         }`}
       >
